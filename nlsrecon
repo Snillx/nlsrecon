@@ -126,6 +126,12 @@ while [[ $# -gt 0 ]]; do
             VERBOSE=true
             shift
             ;;
+        -r|--resistencia)
+            clear
+            Banner
+            echo -e "${BRed}A RESISTÊNCIA NUNCA MORRE${NC} 🏴. ${Bl}https://t.me/A_RESITENCIAL_PUXADAS"
+            exit 1
+            ;;
         --)
             shift
             break
