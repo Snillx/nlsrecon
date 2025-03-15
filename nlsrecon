@@ -129,7 +129,7 @@ while [[ $# -gt 0 ]]; do
         -r|--resistencia)
             clear
             Banner
-            echo -e "${BRed}A RESISTÊNCIA NUNCA MORRE${NC} 🏴. ${Bl}https://t.me/A_RESITENCIA"
+            echo -e "${BRed}A RESISTÊNCIA NUNCA MORRE${NC} 🏴. ${Bl}https://t.me/A_RESITENCIA_NEXUS"
             exit 1
             ;;
         --)
