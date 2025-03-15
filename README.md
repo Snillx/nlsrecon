@@ -25,10 +25,12 @@
 
 ## **Tools Integrated:**
 
+ You will need to download these tools, in order to run **nlsrecon**.
+
 - **[Subfinder](https://github.com/projectdiscovery/subfinder):** Fast and reliable passive subdomain discovery.
 - **[Findomain](https://github.com/Findomain/Findomain):** High-speed subdomain enumeration written in Rust.
 - **[Assetfinder](https://github.com/tomnomnom/assetfinder):** A simple tool for discovering subdomains from various public sources.
-- **[httpx-toolkit](https://github.com/projectdiscovery/httpx):** Validates subdomains, checking if they are alive, and exposes useful information about the subdomains like response codes and technologies.
+- **[httpx-toolkit](https://www.kali.org/tools/httpx-toolkit/):** Validates subdomains, checking if they are alive, and exposes useful information about the subdomains like response codes and technologies.
 
 ## **Installation Guide**
 
