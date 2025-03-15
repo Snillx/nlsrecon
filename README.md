@@ -1,6 +1,6 @@
 # **nlsrecon - Subdomain Discovery Tool**
 
-```
+
  ███▄    █  ██▓      ██████     ██▀███  ▓█████  ▄████▄   ▒█████   ███▄    █
  ██ ▀█   █ ▓██▒    ▒██    ▒    ▓██ ▒ ██▒▓█   ▀ ▒██▀ ▀█  ▒██▒  ██▒ ██ ▀█   █
 ▓██  ▀█ ██▒▒██░    ░ ▓██▄      ▓██ ░▄█ ▒▒███   ▒▓█    ▄ ▒██░  ██▒▓██  ▀█ ██▒
@@ -11,7 +11,6 @@
    ░   ░ ░   ░ ░   ░  ░  ░       ░░   ░    ░   ░        ░ ░ ░ ▒     ░   ░ ░
          ░     ░  ░      ░        ░        ░  ░░ ░          ░ ░           ░
                                       Made by @snillx <3
-```
 
 **nlsrecon** is a Bash-based subdomain discovery tool that integrates **Subfinder**, **Findomain**, and **Assetfinder**. With **nlsrecon**, you can easily discover subdomains for any domain using these powerful tools.
 
@@ -45,7 +44,7 @@ Now you can run **nlsrecon** from anywhere on your system.
 To discover subdomains, simply run:
 
 ```bash
-nlsrecon <domain>
+nlsrecon -d <domain>
 ```
 
 Where `<domain>` is the target domain you want to find subdomains for.
@@ -61,6 +60,4 @@ Options:
  -v, --verbose                         Show all running tasks. Ex: -d site.com -v
 ```
 
----
 
-Agora o repositório está bem estruturado com o logo, o help e o processo de instalação correto. Se precisar de mais ajustes, me avise!
