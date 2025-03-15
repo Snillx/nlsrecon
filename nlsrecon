@@ -139,7 +139,7 @@ done
 
 # Domain verification
 if [[ -z "$DOMAIN" ]]; then
-    echo -e " ${BYellow} Please provide a domain using the ${BCyan}-d${BYellow} or ${BCyan}--domain option.\n \n  ${BYellow}EX: nlsrecon.sh -d example.com"
+    echo -e " ${BYellow} Please provide a domain using the ${BCyan}-d${BYellow} or ${BCyan}--domain ${BYellow}option.\n \n  ${BYellow}EX: nlsrecon.sh -d example.com"
     echo -e " "
     exit 1
 fi
